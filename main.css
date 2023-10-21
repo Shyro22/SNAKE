@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+canvas {
+    width: 90%;
+    height: 90%;
+}
+.infobox{
+    z-index: 10;
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px;
+    border-radius: 5px 5px;
+}
+
+.infobox .panels{
+    border: 1px solid #a7a7a6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ddd;
+    opacity: 0.8;    
+}
+.infobox .panels .hd{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.infobox code{
+    color:blue; 
+    font-size: 20px;   
+}
+.infobox span {
+    font-size: 20px;
+}
+.infobox .panels .score {
+    font-size: 30px;
+}
+
+.paused {
+position: absolute;
+width: 80px;
+border-radius: 5px;
+border: 1px solid #a7a7a6;
+height: 20px;
+z-index: 20;
+background-color: #ddd;
+opacity: 0.8;
+margin: 275px 575px;
+padding: 15px 65px;
+text-transform: uppercase;
+text-align: center;
+font-size: 20px;
+}
+.hidden {
+    display:none;
+}
